@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test adding content with data detectors test</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+        <script type="text/javascript">
+            function addContent(content) {
+                var threadList = document.getElementById('async-content');
+                threadList.insertAdjacentHTML('beforeend', content);
+            }
+        </script>
+    </head>
+    <body>
+
+        <h2> this is content loaded with the page</h2>
+
+        <div>https://helpscout.com</div>
+
+        <h2> content injected with JavaScript is here</h2>
+
+        <div id="async-content">
+        </div>
+    </body>
+</html>
