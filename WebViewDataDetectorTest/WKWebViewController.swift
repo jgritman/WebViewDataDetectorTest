@@ -32,7 +32,7 @@ class WKWebViewController: UIViewController {
 extension WKWebViewController : WKNavigationDelegate {
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         webView.evaluateJavaScript("addContent('http://helpscout.com')") { (result, error) in
-            webView.
+            // ??
         }
     }
 }
